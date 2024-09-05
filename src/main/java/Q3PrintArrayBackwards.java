@@ -7,7 +7,7 @@ public class Q3PrintArrayBackwards {
 
     private static void printRecursion(int i) {
         if(i != 0){
-            System.out.println(array[i]);
+            System.out.println(array[i-1]);
             printRecursion(i-1);
         }
     }
