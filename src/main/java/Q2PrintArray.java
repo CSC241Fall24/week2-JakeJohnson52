@@ -6,9 +6,9 @@ public class Q2PrintArray {
     }
 
     private static void printRecursion(int i) {
-        if(i< array.length){
+        if(i>0){
+            printRecursion(i-1);
             System.out.println(array[i-1]);
-            printRecursion(i+1);
         }
     }
 }
