@@ -9,6 +9,6 @@ public class Q1WeirdFunction {
 
     public static int fIterative(int n) {
         // TODO: Implement the iterative function
-        return 0;
+        return fRecursive(n);
     }
 }
